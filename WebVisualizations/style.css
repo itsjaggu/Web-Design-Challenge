@@ -1,0 +1,72 @@
+.static {
+    background-color: rgb(24, 144, 241);
+    display: inline-block;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    font-size: 18;
+}
+.navbar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    align-items: right;
+    color: black;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+.subnav a {
+    padding: 5px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    background-color: inherit;
+    font-family: inherit;
+}
+.subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.subnavitems {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    z-index: 1;
+}
+.subnavitems a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnavitems a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnavitems {
+    display: block;
+  }
