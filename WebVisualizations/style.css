@@ -19,7 +19,7 @@ h1, h2 {
     border-bottom: groove;
     border-bottom-width: 1px;
 }
-.col-8, .col-4 {
+.col-8, .col-6, .col-4 {
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -35,4 +35,13 @@ img {
 }
 .floatingtext {
     line-height: 2.0;
+}
+.visualimg {
+    display: block;
+    width: auto;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.highlightselection {
+    border-color: blue;
 }
